@@ -1,0 +1,21 @@
+{
+  "framework": "react",
+  "typescript": true,
+  "projectName": "dog-trainning-landing",
+  "mode": "file-router",
+  "tailwind": true,
+  "packageManager": "pnpm",
+  "toolchain": "eslint+prettier",
+  "variableValues": {},
+  "git": true,
+  "version": 1,
+  "existingAddOns": [
+    "shadcn",
+    "tanstack-query",
+    "netlify",
+    "t3env",
+    "tanchat",
+    "start",
+    "store"
+  ]
+}
