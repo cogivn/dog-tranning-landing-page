@@ -4,7 +4,7 @@
 This document outlines the directory structure, conventions, and guidelines for adding new pages, components, and features to keep the codebase clean, scalable, and maintainable.
 
 ## 1. Project Structure
-
+```text
 ├── **public/**
 │   └── Static assets (images, icons, manifest, etc.)
 ├── **src/**
@@ -23,6 +23,7 @@ This document outlines the directory structure, conventions, and guidelines for 
 │   └── **styles.css**    — Global styles (Tailwind imports)
 ├── **docs/**             — Markdown documentation (this folder)
 ├── package.json, tsconfig.json, etc.
+```
 
 ## 2. Naming & Conventions
 - **File names**: kebab-case (`user-profile.tsx`), except React components (`MyButton.tsx`).
